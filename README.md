@@ -3,8 +3,7 @@
 An concurrent and distrubuted way of calculating the distribution of heat on a surface using JoCaml.
 
 ## Authors
-Chris Turgeon (turgec)
-Daniel Tabin (tabind)
+Chris Turgeon and Daniel Tabin
 
 ## Notes on the programs:
 We created two programs.  Our initial program had a dynamic number of concurrent workers.  It splits the board into a given number of workers who each are in charge of a certain number of rows.  The total number of rows is evenly distributed among the workers.  Workers know their above and below neighbors, and can get the neighboring sections of the total board.  This allows them to calculate the edges of their portion of the surface.  Unfortuneately, it proved very difficult to get a dynamic number of workers to run in a distributed manor, so we have another program that demonstrates distributed jocaml; however it has a set number of four workers.
