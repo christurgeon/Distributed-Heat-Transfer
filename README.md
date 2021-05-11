@@ -1,6 +1,6 @@
 # Distributed Heat Transfer
 
-A concurrent and distrubuted way of calculating the distribution of heat on a surface using JoCaml.
+A concurrent and distributed way of calculating the distribution of heat on a surface using JoCaml.
 
 ## Authors
 Chris Turgeon and Daniel Tabin
